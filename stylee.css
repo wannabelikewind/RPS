@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Sacramento&display=swap');
+
+body{
+    background-image: url(./cat.jpg);
+    /* opacity: 40%; */
+    background-size: cover;
+}
+.svg{
+    display : flex;
+    justify-content: center;
+}
+.maggie{
+    display: flex;
+    justify-content: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 55px;
+}
+.upperBody{
+    display : flex;
+    justify-content: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 80px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 55px;
+}
+#rock{
+    /* background-color: #fd806f; */
+    background-color: #ffd6d1;
+    /* background-color: #DBA800; */
+    border-radius: 50%;
+    border : 5px dashed black;
+    padding: 30px 30px 30px 30px;
+}
+.rockey{
+    pointer-events: none;
+}
+.papery{
+    pointer-events: none;
+}
+.scissorey{
+    pointer-events: none;
+}
+#paper{
+    /* background-color: #fd806f; */
+    background-color: #ffd6d1;
+    /* background-color: #DBA800; */
+    border-radius: 50%;
+    padding: 30px 30px 30px 30px;
+    border : 5px dashed black;
+}
+#scissor{
+    /* background-color: #fd806f; */
+    border : 5px dashed black;
+    background-color: #ffd6d1;
+    /* background-color: #DBA800; */
+    border-radius: 50%;
+    padding: 30px 30px 30px 30px;
+}
+.whoChoseWhat{
+    display: flex;
+    justify-content: center;
+    font-family: 'Amatic SC',cursive;
+    font-size: 40px;
+    padding-top: 20px;
+    font-weight: 550;
+}
+.whoWon{
+    display: flex;
+    justify-content: center;
+    font-family: 'Amatic SC',cursive;
+    font-size: 40px;
+    font-weight: 550;
+    margin-bottom: 0px;
+}
+.scoreCard{
+    display: flex;
+    justify-content: center;
+    font-family: 'Amatic SC',cursive;
+    font-size: 40px;
+    font-weight: 550;
+}
+#playerScore{
+    padding-right: 100px;
+}
+#computerScore{
+    padding-left: 125px;
+}
+#endgame{
+    display: flex;
+    justify-content: center;
+    font-family: 'Amatic SC',cursive;
+    font-size: 40px;
+    font-weight: 550;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.res{
+    /* background-color: #fd806f; */
+    background-color: #ffd6d1;
+    /* background-color: #DBA800; */
+    border-radius: 50%;
+    border : 5px dashed black;
+    padding: 15px 15px 15px 15px;
+}
+.end{
+    pointer-events: none;
+}
+.ress{
+    display: flex;
+    justify-content: center;
+}
